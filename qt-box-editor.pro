@@ -58,7 +58,7 @@ RESOURCES = resources/application.qrc \
     resources/QBE-Oxygen.qrc \
     resources/QBE-Tango.qrc
 
-LIBS += -llept -ltesseract
+LIBS += -L /usr/local/lib -llept -ltesseract
 
 win32: {
     DESTDIR = ./win32
